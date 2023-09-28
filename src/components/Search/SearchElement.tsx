@@ -2,7 +2,7 @@ import { search } from "@/utils/api";
 import { useCallback, useState } from "react";
 import { useQuery } from "react-query";
 
-import SearchResults from "./SearchResults";
+import SearchResults from "@/components/Search/SearchResults";
 
 import "@/assets/styles/SearchElement.css";
 
@@ -13,9 +13,6 @@ function SearchElement() {
     queryFn: () => (name ? search(name) : []),
   });
 
-  const handleOnBlur = useCallback(() => {
-    setName("");
-  }, []);
   const handleInputValueChange = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
       setName(e.target.value);

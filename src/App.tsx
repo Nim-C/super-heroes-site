@@ -6,9 +6,9 @@ import { Hero } from "@/types";
 import HeroesComparisonContext from "@/contexts/heroes-comparison";
 import HeroModalContext from "@/contexts/heroes-modal";
 
-import Header from "@/components/Header";
-import ComparisonTable from "@/components/ComparisonTable";
-import HeroModal from "@/components/HeroModal";
+import Header from "@/layout/Header";
+import ComparisonTable from "@/components/Table/ComparisonTable";
+import HeroModal from "@/layout/HeroModal";
 
 import "@/assets/styles/App.css";
 

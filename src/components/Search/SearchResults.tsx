@@ -1,4 +1,4 @@
-import SearchResult from "@/components/SearchResult";
+import SearchResult from "@/components/Search/SearchResult";
 import { Hero } from "@/types";
 import "@/assets/styles/SearchResults.css";
 
