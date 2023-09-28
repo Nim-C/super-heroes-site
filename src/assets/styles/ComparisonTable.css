@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+
+  & button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  & img {
+    width: 5rem;
+  }
+}
+
+thead {
+  border-bottom: 1px solid lightgray;
+}
+
+tbody {
+  & tr {
+    cursor: pointer;
+  }
+}
+
+th {
+  padding: 2px 4px;
+}
+
+td {
+  padding: 0 1.5rem;
+}

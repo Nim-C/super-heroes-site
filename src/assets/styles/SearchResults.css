@@ -1,0 +1,17 @@
+.results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background: #626262;
+  overflow-x: auto;
+  max-height: 0;
+
+  &.with-results {
+    max-height: 48.4rem;
+  }
+}

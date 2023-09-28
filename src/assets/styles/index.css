@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("@/assets/fonts/permanent-marker/PermanentMarker-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Permanent Marker", cursive;
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #494747;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+}
