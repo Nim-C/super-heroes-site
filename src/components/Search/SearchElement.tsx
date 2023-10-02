@@ -21,10 +21,7 @@ function SearchElement() {
   );
 
   return (
-    <div
-      className="search-element"
-      // onBlur={handleOnBlur}
-    >
+    <div className="search-element">
       <input
         value={name}
         type="search"
