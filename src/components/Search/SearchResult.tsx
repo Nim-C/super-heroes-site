@@ -15,7 +15,10 @@ function SearchResult(hero: Hero) {
   const handleClickAddHero = useCallback(
     (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
       e.stopPropagation();
-      setHeroes([...heroes, hero]);
+      setHeroes([
+        ...heroes.filter((includedHero) => includedHero.id !== hero.id),
+        hero,
+      ]);
     },
     [hero, heroes, setHeroes]
   );
